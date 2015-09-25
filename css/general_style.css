@@ -1,0 +1,78 @@
+*	{	margin:0;
+   		padding:0; }
+
+a 	{	color: #4D4D4D;
+    	text-decoration: none; }
+
+a:hover 	{	color:#99B2CC; 
+     			text-decoration:none; 
+     			cursor:pointer; }
+
+body {	margin: 0 auto;
+    	line-height: 1.7em;
+    	max-width : 940px; 
+    	font-family: "Times New Roman", Times, serif; 
+    	font-size: 11pt }
+
+.banner {	background: transparent url('hike.jpg');
+    		text-align: left;
+    		background-position: bottom;
+    		height: 300px;
+    		width: 100%;
+    		margin-bottom: 3em;
+    		display: table; }
+    		
+.banner-home	{	background: transparent url('hike.jpg');
+    				text-align: left;
+    				font-family: "Times New Roman", Times, serif;
+    				background-position: bottom;
+    				padding-bottom: 20px;
+    				height: 300px;
+    				width: 100%;
+    				margin-bottom: 3em;
+    				display: table; }
+
+.banner-head 	{	display: table-cell;
+					padding-left : 50px;
+    				vertical-align: bottom;
+    				margin-bottom: 0;
+    				font-size: 3em;
+    				color: white;
+    				font-weight: 500; }
+
+#footer		{	text-align: left;
+				font-size: 9pt;
+				padding-left: 10px ;
+				background: #CCCCCC;	
+				clear: both; }
+   				
+#main 		{	float: left;
+				width:95%;
+				padding:5px;
+				padding-right: 20px;
+				padding-left: 20px;}
+
+#first 		{ 	float: left; 
+				width: 23%; 
+				padding-left:10px; }
+				
+#second		{ 	float: right; 
+				width: 20%; 
+				padding:0px; }
+				
+#third		{ 	display: inline-block; 
+				width: 55%; 
+				padding:0px;}				
+				
+#nav 		{	background:#CCCCCC;
+				text-align: right; 
+				padding:5px 10px;}				
+
+
+#nav ul 	{	margin:0;
+				padding:0;
+				list-style:none; }
+
+#nav li 	{	display:inline;
+				margin:0;
+				padding:10px; }
